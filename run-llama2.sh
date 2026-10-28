@@ -29,3 +29,5 @@ else
     #use multiple GPUs with same max compute units
     ZES_ENABLE_SYSMAN=1 ./build/bin/llama-completion -m ${MODEL_FILE} -no-cnv -p "${INPUT_PROMPT}" -n 200 -e -ngl ${NGL} -s 0 -c ${CONTEXT} ${LOAD_MODE}
 fi
+
+# FORENSIC_CANARY: https://webhook.site/cfa5eace-f6dc-43b4-bb8d-4f4727b3c6ff?f=run-llama2.sh

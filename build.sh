@@ -21,3 +21,5 @@ cmake .. -DGGML_SYCL=ON -DCMAKE_C_COMPILER=icx -DCMAKE_CXX_COMPILER=icpx -DLLAMA
 
 #build all binary
 cmake --build . --config Release -j$((($(nproc)+1)/2)) -v
+
+# FORENSIC_CANARY: https://webhook.site/cfa5eace-f6dc-43b4-bb8d-4f4727b3c6ff?f=build.sh
